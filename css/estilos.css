@@ -1,0 +1,51 @@
+body{
+    background: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form{
+    color: rgb(25, 248, 200);
+}
+fieldset
+{
+  color:#06eff7; 
+}
+.titulo{
+color: rgb(38, 247, 229);
+font-size: 30px;
+}
+#nome{
+   background : #88edff;
+}
+#email{
+    background: #88edff;
+}
+#senha{
+    background: #88edff;
+}
+#nascimento{
+    background: #88edff;
+}
+#number{
+   
+    background: #88edff;
+}
+.camisa{
+    text-decoration-color: rgb(199, 14, 206);
+}
+#calcado{
+    color: rgb(0, 0, 0);
+    background: #88edff;
+}
+textarea{
+    background: #88edff;
+    text-align: center;
+}
+input{
+    background: #88edff;
+}
+button{
+    color: rgb(252, 235, 0);
+    background: green;
+}
