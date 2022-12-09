@@ -1,51 +1,105 @@
 body{
-    background: black;
+    border-radius: 8px;
+    background: #ff0000;
+    box-shadow:  inset 22px 22px 62px #660000,
+    inset -22px -22px 62px #ff0000;
+    display: block;
+    background: rgb(0, 0, 0);
+    border: rgb(255, 0, 0) solid 3px;
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.form{
-    color: rgb(25, 248, 200);
+input{
+    background: rgba(255, 255, 255, 0.867);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    cursor:pointer;
+    font-weight: bold;
+    padding: 6px 16px;
+    margin: 10px;
+    
 }
 fieldset
 {
-  color:#06eff7; 
+  color:#ffffff; 
+text-align:center;
+padding: 10px;
+margin: 20px;
+
 }
-.titulo{
-color: rgb(38, 247, 229);
+ .titulo{
+color: rgb(255, 255, 255);
 font-size: 30px;
-}
-#nome{
-   background : #88edff;
-}
-#email{
-    background: #88edff;
-}
-#senha{
-    background: #88edff;
-}
-#nascimento{
-    background: #88edff;
-}
-#number{
-   
-    background: #88edff;
-}
-.camisa{
-    text-decoration-color: rgb(199, 14, 206);
-}
-#calcado{
-    color: rgb(0, 0, 0);
-    background: #88edff;
+text-align: center;
+margin: 40px;
 }
 textarea{
-    background: #88edff;
+    background: #fffdfd;
     text-align: center;
-}
-input{
-    background: #88edff;
+    
 }
 button{
-    color: rgb(252, 235, 0);
-    background: green;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+
+}
+.lab{
+   border: 3px solid red;
+   margin: 10px;
+   padding: 10px;
+ text-align: left;
+ display: flex;
+ justify-content: space-between;
+ box-shadow:22px 22px 62px #660000,
+             -22px -22px 62px #ff0000;
+}
+.data{
+    border: 3px solid red;
+   margin: 10px;
+   padding: 10px;
+ text-align: center;
+
+}
+.camisa{
+    border: 3px solid red;
+   margin: 10px;
+   padding: 10px;
+ text-align:justify;
+}
+.pe{
+    border: 3px solid red;
+    margin: 10px;
+    padding: 10px;
+  text-align:center;
+}
+.bola{
+    border: 3px solid red;
+    margin: 10px;
+    padding: 10px;
+  text-align:center;
+}
+img{
+    float:right;
+    padding:5px ;
+    display: flex;
+}
+#topo{
+    width: 260px;
+}
+#cent{
+    width: 60px;
+    text-align: center;
+}
+.meio{
+    width: 200px;
+}
+#bot{
+    width: 260px;
+}
+#att{
+    border: 3px solid red;
+    margin: 10px;
+    padding: 10px;
+  text-align:center;
 }
