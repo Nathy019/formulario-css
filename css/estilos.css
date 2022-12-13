@@ -28,23 +28,28 @@ padding: 10px;
 margin: 20px;
 
 }
+textarea{
+    background: #fffdfd;
+    text-align: center;
+    
+}button{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+
+}
+img{
+    float:right;
+    padding:5px ;
+    display: flex;
+}
  .titulo{
 color: rgb(255, 255, 255);
 font-size: 30px;
 text-align: center;
 margin: 40px;
 }
-textarea{
-    background: #fffdfd;
-    text-align: center;
-    
-}
-button{
-    color: rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
 
-}
-.lab{
+.toponome{
    border: 3px solid red;
    margin: 10px;
    padding: 10px;
@@ -73,17 +78,13 @@ button{
     padding: 10px;
   text-align:center;
 }
-.bola{
+.fim{
     border: 3px solid red;
     margin: 10px;
     padding: 10px;
   text-align:center;
 }
-img{
-    float:right;
-    padding:5px ;
-    display: flex;
-}
+
 #topo{
     width: 260px;
 }
